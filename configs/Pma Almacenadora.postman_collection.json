@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "108ea54a-e879-4611-9097-083379433c46",
+		"name": "Pma Almacenadora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42000110"
+	},
+	"item": [
+		{
+			"name": "Obtener los superheroes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/superhero/obtenerLosSuperheroes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"superhero",
+						"obtenerLosSuperheroes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
